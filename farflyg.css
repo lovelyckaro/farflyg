@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#bannerimg{
+    max-height: 100%;
+    max-width:  100%;
+    
+}
+
+#test2{
+    height: 100%;
+    background-color: blue;
+}
