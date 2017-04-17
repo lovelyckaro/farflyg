@@ -1,14 +1,105 @@
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 #header {
-    background-color: aqua;
+    background-color: #993333	;
     height: 60px;
     width: 100%;
+    color: white;
+    font-family: 'Asar', serif;  
 }
 
 #hamburger {
-    height: calc(100% - 10px);
+    height: 50px;
     margin: 5px 0px 0px 5px;
+    float: left;
+    z-index: 2;
 }
+
+
+#title {
+    padding: 0;
+    margin: -10px 0 0 0;
+    width: 250px;
+    height: 100%;
+    left: calc(50% - 175px);
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    float: left;
+}
+
+#searchbar {
+    height: 100%;
+    float: right;
+}
+
+#searchIcon {
+    height: 50px;
+    margin: 5px 5px 0 0;
+    float: left;
+}
+
+
+#searchText {
+    display: none;
+    margin: 0 0 0 0;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ac3939	;
+    color: white;
+}
+
+#searchText:focus {
+    outline: none;
+}
+
+#searchText::placeholder {
+    color: white;
+}
+
+#searchbar form {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    display:none;
+    background-color: #862d2d;
+}
+
+#mobileSearchbar {
+    display: none;
+}
+
+#loginScreen {
+    background-color: #ac3939;
+}
+
+#textInputs {
+    position: relative;
+    left: calc(50% - )
+}
+
+#upper {
+    height: 40px;
+}
+
+.loginText {
+    font-size: 30px;
+    border: none;
+    padding: none;
+    background-color: white;
+}
+
+
+.loginText:focus {
+    outline:none;
+    background-color: lightgrey;
+}
+
