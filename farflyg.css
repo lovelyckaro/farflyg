@@ -70,7 +70,7 @@ body {
 
 #menu {
     display:none;
-    background-color: #862d2d;
+    background-color: #ac3939;
 }
 
 #mobileSearchbar {
@@ -78,16 +78,13 @@ body {
 }
 
 #loginScreen {
-    background-color: #ac3939;
+    ;
 }
 
 #textInputs {
     position: relative;
-    left: calc(50% - )
-}
-
-#upper {
-    height: 40px;
+    left: calc(50% - 250px);
+    width: 500px;
 }
 
 .loginText {
@@ -95,6 +92,7 @@ body {
     border: none;
     padding: none;
     background-color: white;
+    width: 49%;
 }
 
 
