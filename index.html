@@ -12,7 +12,9 @@
 </head>
 
 <body>
-    <img src="" id="bakgrundsbild">
+    <div id="bakgrundsbildDiv">
+        <img src="images/newyork.jpg">
+    </div>
     <div id="header">
         <a href="javascript:void(0);" id="slideMenu">
             <img src="images/menu.svg" id="hamburger">
@@ -29,38 +31,70 @@
         </div>
     </div>
     <div id="menu">
-        <div id="mobileSearchbar">
-            <form>
-                <input id="mobileSearchText" type="search" placeholder="Sök..">
-                <input type="image" src="images/search.svg">
-            </form>
-            
-        </div>
         <div id="loginScreen">
-            <form>
-                <div id="textInputs">
-                    <input class="loginText" type="text" placeholder="Användarnamn" required>
-                    <input class="loginText" type="password" placeholder="Lösenord" required>
-                </div>
-                <div>
-                    <button type="submit">Logga in</button>
-                    <input type="checkbox"> Remember me 
-                    <a href="javascript:void(0);">Glömt ditt lösenord?</a>
-                </div>
-            </form>
-        
+            <div class="left">
+                Användarnamn/mailadress:<br>Lösenord:<br>Remember me:<br><a href="javascript:void(0);">Glömt ditt lösenord? </a>  
+            </div>
+            <div class="right">
+                <form>
+                    <input type="text" placeholder="Användarnamn" required><br>
+                    <input type="password" placeholder="Lösenord" required><br>
+                    <input type="checkbox"><br>
+                    <input type="submit">
+                    <br>
+                </form>
+            </div>
         </div>
         <ul>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
-            <li><a href="javascript:void(0);"></a></li>
+            <li><a href="javascript:void(0);">Viktig information</a></li>
+            <li><a href="javascript:void(0);">Om oss</a></li>
+            <li><a href="javascript:void(0);">Våra samarbetspartners</a></li>
+            <li>Sociala medier:</li>
+                <ul>
+                    <li><a href="javascript:void(0);">Facebook</a></li>
+                    <li><a href="javascript:void(0);">Instagram</a></li>
+                    <li><a href="javascript:void(0);">Twitter</a></li>
+                    <li><a href="javascript:void(0);">Snapchat</a></li>
+                    
+                </ul>
         </ul>
     </div>
-    <div id="form"></div>
-    <div id="paket"></div>
+    <div id="form">
+        <h1>Sugen på en resa?</h1>
+        <div class="left">
+            Till:<br>Från:<br>Datum:<br>Antal resenärer:<br>
+        </div>
+        <div class="right">
+            <form>
+                <input type="text" placeholder="Resemål">
+                <input type="text" placeholder="Avreseort">
+                <input type="date" value="1945-04-30">
+                <input type="number" value="1">
+            </form>
+        </div>
+    </div>
+    <div id="paket">
+        <div class="erbjudande">
+            <h1>People watching i London</h1>
+            <p>Vart kan du hitta knasigare människor än i London? Svar, ingentstans, och för endast 15000 kr kan du flyga dit och kolla själv!</p>
+            <a href="javascript:void(0)">Läs mer...</a>
+        </div>
+        <div class="erbjudande">
+            <h1>Deprimerande historia i Warszawa</h1>
+            <p>Allt från tyskt förtryck till sovjetisk fattigdom, Polen har sannerligen allt, och deras huvudstad Warszawa fungerar som centrum för allt polskt!</p>
+            <a href="javascript:void(0)">Läs mer...</a>
+        </div>
+        <div class="erbjudande">
+            <h1>Käbbel, live i Stockholm</h1>
+            <p>Vem sitter inte som fastklistrad när det är Partiledarkäbbel i tv? Med vårat paket så kan du själv vara på plats och se spektaklet i första hand!</p>
+            <a href="javascript:void(0)">Läs mer...</a>
+        </div>
+        <div class="erbjudande">
+            <h1>Bli tafsad på i Tokyo</h1>
+            <p>Vem har inte drömt om den härliga japanska kulturen någon gång? Anime, sushi, samurajer, och härlig vardaglig sexism. Japanerna har allt och lite mer!</p>
+            <a href="javascript:void(0)">Läs mer...</a>
+        </div>
+    </div>
 </body>
+    <!-- Vet att sidan är fett liten, men tro mig den är bättre än den första jag gjorde.-->
 </html>
